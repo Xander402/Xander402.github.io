@@ -72,14 +72,6 @@ a span {
 	background-color: rgba(0,0,255,0.1);
 }
 
-tr td p {
-	margin-top: 0px !important;
-}
-
-.MsoQuote span{
-	font-size: 120% !important;
-}
-
 .margin {
 	position: fixed;
 	top: 0px;
@@ -92,4 +84,16 @@ tr td p {
 	padding: 4px;
 	margin-right: -5px;
 	font-size: 80%
+}
+
+tr td p {
+	margin-top: 0px !important;
+}
+
+span.MsoHyperlink {
+	text-decoration: none !important;
+}
+
+.MsoQuote span{
+	font-size: 120% !important;
 }
