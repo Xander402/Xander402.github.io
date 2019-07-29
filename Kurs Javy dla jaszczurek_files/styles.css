@@ -1,7 +1,7 @@
 /*
 
-<link rel="stylesheet" href="Kurs%20Javy%20dla%20jaszczurek_files/styles.css">
-<script src="Kurs%20Javy%20dla%20jaszczurek_files/colorFix.js"></script>
+<link rel="stylesheet" href="index_files/styles.css">
+<script src="index_files/colorFix.js"></script>
 */
 
 @font-face {
@@ -80,7 +80,7 @@ a span {
 }
 
 .code {
-	background-color: #121e31;
+	background-color: #121e31 !important;
 	padding: 4px;
 	margin-right: -5px;
 	font-size: 80%

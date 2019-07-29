@@ -5,15 +5,15 @@ function colorFix() {
 	document.body.innerHTML = document.body.innerHTML.replace(selection, replacement);
 	
 	var selection = 'darkblue"';
-    	var replacement = 'none" class="code"';
-    	while (document.body.innerHTML.includes(selection)) {
-        	document.body.innerHTML = document.body.innerHTML.replace(selection, replacement);
-    	}
-    	var selection = 'navy"';
-    	var replacement = 'none" class="code"';
-    	while (document.body.innerHTML.includes(selection)) {
-        	document.body.innerHTML = document.body.innerHTML.replace(selection, replacement);
-    	}
+	var replacement = 'none" class="code"';
+	while (document.body.innerHTML.includes(selection)) {
+		document.body.innerHTML = document.body.innerHTML.replace(selection, replacement);
+	}
+	var selection = 'navy"';
+	var replacement = 'none" class="code"';
+	while (document.body.innerHTML.includes(selection)) {
+		document.body.innerHTML = document.body.innerHTML.replace(selection, replacement);
+	}
 	
 	selection = '#BFBFBF';
 	replacement = '#888; text-decoration:line-through';
