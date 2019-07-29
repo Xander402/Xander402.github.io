@@ -1,0 +1,99 @@
+/*
+
+<link rel="stylesheet" href="index_files/styles.css">
+<script src="index_files/colorFix.js"></script>
+*/
+
+@font-face {
+  font-family: chalk;
+  src: url(chalk.ttf);
+}
+
+@font-face {
+  font-family: Consolas;
+  src: url(Consolas.ttf);
+}
+
+body{
+	padding: 0px;
+	margin: 0px;
+	background-color: #e0e8ff;
+}
+
+img {
+	max-width: 800px;
+	height: auto;
+}
+
+h1 span {
+	font-size: 160% !important;
+}
+
+a span {
+	font-size: 100% !important;
+}
+
+#leftMargin {
+	left: 0px;
+	background: linear-gradient(to left, #e0e8ff, #888ec8, #121e31);
+}
+
+#rightMargin {
+	right: 0px;
+	background: linear-gradient(to right, #e0e8ff, #888ec8, #121e31);
+}
+
+.WordSection1 {
+	max-width: 800px;
+	margin: auto;
+	margin-top: 0px;
+	background-color: #e0e8ff;
+	padding: 30px;
+}
+
+.MsoTitle {
+	font-size: 300% !important;
+}
+
+.MsoBookTitle span {
+	font-size: 160% !important;
+}
+
+.MsoNormal, .MsoListParagraphCxSpFirst, .MsoListParagraphCxSpMiddle, .MsoListParagraphCxSpLast {
+	font-size: 110% !important;
+	line-height: 24px !important;
+}
+
+.MsoTableGrid {
+	margin: 20px;
+	font-size: 100% !important;
+	width: 500px !important;
+	margin-bottom: -25px !important;
+	background-color: rgba(0,0,255,0.1);
+}
+
+.margin {
+	position: fixed;
+	top: 0px;
+	height: 100vw;
+	width: calc((100vw - 860px) / 2);
+}
+
+.code {
+	background-color: #121e31 !important;
+	padding: 4px;
+	margin-right: -5px;
+	font-size: 80%
+}
+
+tr td p {
+	margin-top: 0px !important;
+}
+
+.MsoHyperlink {
+	text-decoration: none !important;
+}
+
+.MsoQuote span{
+	font-size: 120% !important;
+}
